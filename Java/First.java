@@ -48,7 +48,7 @@ public class First {
         d.Display();
 
         DisplayInfo d1 = new DisplayInfo("name", 44);
-        d.Display();
+        d1.Display();
 
 
 
