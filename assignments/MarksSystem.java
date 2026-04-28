@@ -1,9 +1,11 @@
+
 // Write a program using inheritance &amp; interfaceto display record of your semester exam marks
 // which is based on Internal &amp; End sem exam marks. And IA marks depends on Assignment,
 // Attendance &amp; Sessional exam.
 
 
 // Interface
+
 interface Marks {
     void calculateIA();
 

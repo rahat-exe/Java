@@ -1,3 +1,5 @@
+import assignments.Student;
+
 class Student{
     String name;
     int age;
