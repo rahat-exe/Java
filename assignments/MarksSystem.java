@@ -4,7 +4,6 @@
 // Attendance &amp; Sessional exam.
 
 
-// Interface
 
 interface Marks {
     void calculateIA();
@@ -12,7 +11,7 @@ interface Marks {
     void calculateTotal();
 }
 
-// Base class
+
 class Student {
     int assignment, attendance, sessional;
 
@@ -51,7 +50,7 @@ class Result extends Student implements Marks {
     }
 }
 
-// Main class
+
 public class MarksSystem {
     public static void main(String[] args) {
         Result r = new Result(8, 6, 18, 55);
