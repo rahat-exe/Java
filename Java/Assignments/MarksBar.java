@@ -1,3 +1,4 @@
+package Assignments;
 //Write a Java AWT program that creates a Frame to display a bar representing a student’s marks. Assume the marks are stored in an integer variable (for example, int marks = 75; ). draw the x and y axes , and then draw a single filled rectangle (bar) whose height is proportional to the marks. And display the value of the marks above the bar. Assume required imports and that the class extends Frame.
 import java.awt.*;
 

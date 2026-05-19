@@ -1,4 +1,4 @@
-import assignments.Student;
+import Assignments.Student;
 
 class Student{
     String name;
