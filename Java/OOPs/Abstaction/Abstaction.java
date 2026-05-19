@@ -1,3 +1,4 @@
+
 // Abstract class — the "what", not the "how"
 abstract class PaymentMethod {
     abstract void pay(double amount); // no body, just the contract

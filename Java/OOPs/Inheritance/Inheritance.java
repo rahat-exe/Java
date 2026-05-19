@@ -1,3 +1,4 @@
+package OOPs.Inheritance;
 // Parent class
 class Animal {
     String name;
