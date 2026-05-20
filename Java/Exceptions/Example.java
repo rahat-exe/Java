@@ -3,14 +3,14 @@
 public class Example {
     public static void main(String[] args) {
         // int result = 12 / 0;
-        // System.out.println(result);  Will cause exception and program will terminate
+        // System.out.println(result);  //Will cause exception and program will terminate
         try {
             int result = 12/0;
             System.out.println(result);
         } catch (Exception e) {
             System.err.println(e);
         }
-        System.err.println("Program is still running");
+        System.err.println("Program is still running"); // Will catch the exceptin and handle it and the program will still run
 
 
         // try {
